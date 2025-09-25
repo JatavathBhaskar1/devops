@@ -25,4 +25,4 @@ COPY target/musifyapi-0.0.1-SNAPSHOT.jar .
 
 EXPOSE 5000
 
-ENTRYPOINT ["java", "-jar", "musifyapi-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java", "-jar", "/musifyapi-0.0.1-SNAPSHOT.jar"]
