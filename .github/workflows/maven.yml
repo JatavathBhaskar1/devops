@@ -8,6 +8,10 @@
 
 name: musify app ci/cd flow
 
+permissions:
+  security-events: write
+  contents: read
+
 on:
   push:
     branches: [ "main" ]
